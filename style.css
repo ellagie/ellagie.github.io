@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #DAD7CD;
+  color: #344E41;
+}
+
+.navbar {
+  background-color: #3A5A40 !important;
+}
+
+h2 {
+  color: #3A5A40;
+}
+
+section {
+  padding: 40px 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+footer {
+  background-color: #344E41;
+  color: white;
+  padding: 15px 0;
+}
