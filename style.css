@@ -1,37 +1,8 @@
+// styles.css
 body {
   font-family: Arial, sans-serif;
-  color: black;
 }
-
-.navbar {
-  background-color: #3A5A40;
-}
-
-.navbar a {
-  color: white; /* Ensures the navbar text is visible */
-}
-
-h2 {
-  color: #3A5A40;
-}
-
-section {
-  padding: 20px 0; /* Adjusted for better mobile responsiveness */
-}
-
-ul {
-  list-style-type: none;
-}
-
-footer {
-  background-color: #344E41;
-  color: white;
-  padding: 15px 0;
-  text-align: center; /* Centers footer text */
-}
-
-@media (min-width: 768px) {
-  section {
-    padding: 40px 0; /* Increases padding for larger screens */
-  }
+.hero-section {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('background.jpg') center/cover;
 }
