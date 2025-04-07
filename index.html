@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Baby Gieneil D. Endab</div>
+      <!-- Hamburger Menu Button -->
+      <div id="hamburger-nav">
+        <div class="hamburger-menu" onclick="toggleMenu()">
+          <div class="hamburger-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+      <!-- Desktop Menu -->
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#awards">Awards</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contacts">Contacts</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="assets/bebe/bebe.png" alt="profile picture" class="profile-pic" />      
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Welcome, I'm</p>
+        <h1 class="title">Baby Gieneil D. Endab</h1>
+        <p class="section__text__p2">BS Information Technology 302-A Student</p>
+        <div class="btn-container">
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="assets/facebook/facebook.png"
+            alt="Facebook"
+            class="icon"
+            onclick="window.open('https://www.facebook.com/share/1BNEHmPtZy/', '_blank')"
+          />
+          <img
+            src="assets/instagram/instagram.png"
+            alt="Instagram"
+            class="icon"
+            onclick="window.open('https://www.instagram.com/babygieneil', '_blank')"
+          />
+        </div>        
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img src="assets/gie/gie.png" alt="Profile picture" class="about-pic" />
+        </div>
+        <div class="about-details-container">
+          <div class="text-container">
+            <p>Birthdate: October 30, 2003</p>
+            <p>Religion: Roman Catholic</p>
+            <p>Citizenship: Filipino</p>
+            <p>Quote in Life: Don't seek perfection; seek progress.</p>           
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+      <p class="section__text__p1">My Educational Background</p>
+      <h1 class="title">Education</h1>
+      <div class="education-details-container">
+        <div class="details-container">
+          <h3>Elementary</h3>
+          <p>Talisay Elementary School - Year: 2010-2016</p>
+        </div>
+        <div class="details-container">
+          <h3>Secondary</h3>
+          <p>Emilio V. Quizon National High School - Year: 2017-2020</p>
+        </div>
+        <div class="details-container">
+            <h3>Senior High School</h3>
+            <p>Emilio V. Quizon National High School - Year: 2021-2022</p>
+        </div>
+        <div class="details-container">
+          <h3>College</h3>
+          <p>Cavite State University-TMC Campus - Year: 2022-2023</p>
+          <p>Cavite State University-CCAT Campus - Year: 2023-Present</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Awards Section -->
+    <section id="awards">
+      <h1 class="title">Awards & Achievements</h1>
+      <div class="awards-container">
+        <div class="award">
+          <h4 class="award-title">Elementary Milestone</h4> 
+          <ul class="award-list"></ul>         
+            <li>District Makabayan Quizbee 1st Place (Grade4)</li>
+            <li>With Honor (Grade4)</li>
+            <li>Supreme Pupil Government Vice President (Grade5)</li>
+            <li>With Honor (Grade5)</li>
+            <li>Best Narrator (Grade6)</li>
+            <li>Champion Spoken Word Poetry (Grade6)</li>
+            <li>1st Honorable Mentioned (Grade6)</li>
+          </ul>  
+          <p class="award-description">During my elementary years, I developed a passion for public speaking and leadership, 
+            which led to winning various competitions and excelling academically. 
+            These experiences laid the foundation for my future pursuits.</p>
+        </div>
+        <div class="award">
+          <h4 class="award-title">Secondary Milestone</h4>
+          <ul class="award-list">
+            <li>The Voice Teens SAQ Semifinalist (1st Yr)</li>
+            <li>Champion Street Dance Competition (1st Yr)</li>
+            <li>With Honor (1st Yr)</li>
+            <li>Champion Street Dance Competition (2nd Yr)</li>
+            <li>With Honor (2nd Yr)</li>
+            <li>Champion Street Dance Parade (3rd Yr)</li>
+            <li>With Honor (3rd Yr)</li>
+            <li>Math Fair 2nd Place (4th Yr)</li>
+            <li>Champion Unity Dance Challenge (4th Yr)</li>         
+            <li>Champion Street Dance Competition (4th Yr)</li>
+            <li>Cultural Dance 2nd Place (4th Yr)</li>
+            <li>With High Honor (4th Yr)</li>
+          </ul>
+          <p class="award-description">In secondary school, I honed my teamwork, leadership, and academic skills through various competitions and honors.
+            My involvement in extracurricular activities, such as dance and leadership roles,
+            helped shape my work ethic and commitment to excellence.</p>
+        </div>
+        <div class="award">
+          <h4 class="award-title">SHS Milestone</h4>
+          <ul class="award-list"></ul>
+            <li>Champion Indak Sayaw Tagisan ng Galaw (Grade11)</li>
+            <li>Champion Math Jingle Competition (District & Division) (Grade11)</li>
+            <li>With Honor (Grade11)</li>
+            <li>Best Manager in Work Immersion (Grade12)</li>
+            <li>Certificate of NCII in Cookery (Grade12)</li>
+            <li>With Honor (Grade12)</li>
+          </ul>
+          <p class="award-description">Senior high school was a period of self-discovery and growth.
+            I balanced academics with extracurricular activities, achieving recognition for my leadership and performance.
+            These experiences taught me the importance of discipline and collaboration.</p>
+        </div>
+        <div class="award">
+          <h4 class="award-title">College Milestone</h4>
+          <ul class="award-list"></ul>
+            <li>Dean's Lister (1st Yr)</li>
+          </ul>
+          <p class="award-description">During first year in college, I continued to strive for academic excellence while participating in extracurricular activities 
+            to pursue opportunities for growth and development.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <p class="section__text__p1">My Skills</p>
+      <h1 class="title">Skills</h1>
+      <div class="skills-container">
+        <ul>
+          <li class="details-container">
+            <h3>Basic Programming</h3>
+            <p>Experience with basic programming concepts in various languages.</p>
+          </li>
+          <li class="details-container">
+            <h3>Command Line Basics</h3>
+            <p>Familiar with navigating and performing tasks in the command line interface (CLI), 
+               including file management and running scripts.</p>
+          </li>
+          <li class="details-container">
+            <h3>Communication</h3>
+            <p>Strong communication skills, both written and verbal, to articulate ideas effectively.</p>
+          </li>
+          <li class="details-container">
+            <h3>Teamwork</h3>
+            <p>A collaborative worker who excels in team-based projects.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent Projects</p>
+      <h1 class="title">Projects</h1>
+      <div class="projects-container">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="assets/figma/figma.png" alt="Project 1" class="project-img" />
+          </div>
+          <h2 class="project-title">Project 1</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2" onclick="location.href='https://www.figma.com/proto/EJNjbP25PDy0b0xDlkjQBF/Let'">Figma</button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="assets/website/website.png" alt="Project 2" class="project-img" />
+          </div>
+          <h2 class="project-title">Project 2</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2" onclick="location.href='https://l.facebook.com/l.php?u=https%3A%2F%2Fdrive.google.com%2Fdrive%2Fmobile%2Ffolders%2F1kP654EOJsCRy2qkrnuf6rs8vE0Z8_JYb%3Fusp%3Dsharing%26fbclid%3DIwZXh0bgNhZW0CMTAAAR7kyzDtrRUl5ecGQaSzPlJPNkWC_oM5GdY0QaKiNQ4JrG1ID7JaOFTlh-kiPg_aem_-ZNIzboMIhB6luVmKFHmag&h=AT26-RU9JRjojyGW7MGgD3knzvCbkTbHEwj-lArn86NJMDMbcfEPUOqYS32haKUQP4ftkwzTUhjJgrTaffDsdwPUsqQfcrUu2KdzEyZdKbZNno8VvAMfy-vPfTGb0A-DxlITbw'">Website</button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="assets/draw.io/draw.io.png" alt="Project 3" class="project-img" />
+          </div>
+          <h2 class="project-title">Project 3</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2" onclick="location.href='https://l.facebook.com/l.php?u=https%3A%2F%2Fviewer.diagrams.net%2F%3Ftags%3D%257B%257D%26lightbox%3D1%26highlight%3D0000ff%26edit%3D_blank%26layers%3D1%26nav%3D1%26dark%3Dauto%26fbclid%3DIwZXh0bgNhZW0CMTAAAR48UUDjEzzJyXVAb5MrBxXQxSP8iqu49N1CY4vmbvbCJtGMV0wBvGNgZvacaQ_aem_pWlg1jFJ7wX2ySSuqOiczA%23R%253Cmxfile%253E%253Cdiagram%2520name%253D%2522Page-1%2522%2520id%253D%2522HZAZHGamDLtlwwDhgLFj%2522%253E5V1bc5s4FP41mWkf4uEmsB9tJ212pu1kmu5m92lHAcXWBiMXcC799SsBskEysYIBi%252BalASEdI32fjs45Oqhn9nz1%252FDmG6%252BVXEqDwzDKC5zP74syyTNO06R9W8pKXAAvkBYsYB0WlXcEN%252FoWKQqMo3eAAJZWKKSFhitfVQp9EEfLTShmMY%252FJUrXZPwuqvruECSQU3Pgzl0lscpMu8dAyMXfkVwosl%252F2XTKJ6sIK9cFCRLGJCnUpF9eWbPY0LS%252FGr1PEchGzw%252BLnm7TzVPty8WoyhVaXD5Kzq%252FxV8uLWCvrp4if%252FX535vzQsojDDdFh7%252BzF7KMyxCtmGDLDan0WYAf6eWCXdK%252FcLWmF2F%252BZ1ygJMURTDGJkjP2EsXzau3oLlnn90W7TxWZ2QilL3zYY7KJAsTe3KCPn5Y4RTdr6LOnT5RotGyZrkJ6Z9LLJI3JwxYeayuvPDa8oyhO0XOpqBirz4isUBq%252F0CrFUxt4eZOCuE4B49OOBaZdkHtZYoBb1IMF8RZbyTts6EUBzxugsiSommH0G0HkggpEprcHIz79esHIljCShg1FwZTpJXrnhzBJsF8dqeqwomec%252Fs2uRyZVnPn9P6VnF8%252Flm5fSzTWKMe0Uiouy2vFOyCb20WHioaCiKWVUSqMO9gw6L4tRSHn4WNWv%252B5AofuGaYMbxLehjowq6CGben6JVWR8eEmQIglIYL1AqCcqIse12c644Eleuc3BExtDZkFY5AkO8iBiBaHUG8IzNGUwXrWnxYIWDgDWfxSjBv%252BBdJoqxYM16k%252FUPzM7ABZO1SUmSL7u7iTonIWHEiUjEpNzjMBSK2pi%252BlgCAJU9fdw%252BR7K5m77j12RvR18qnrzexeAGbv%252BfGyLAmvGQ3i7O7l%252FKdOI93GsHzSgrBHBm22aNS4LZYNkcGozwcV6Cc2VB5SIJELdSx8phIVJ0vMTVt34vucMSlf4%252Fu2MejznQHJ5Ki8ihGQkVzOJ5T1hzmcUrDca2S1mBqyBz3b0scVBumXmrDFma711RtiDaH1a%252FaMGV%252Fb5qmMb7bpNTJ3utH%252FNwwB3V2YRjm7o5XvYtLNfc0zoqSNYwqE4FLuYP%252BwyLj%252Fbmfa4gp40YMo4Rza5a59ttnIYP2PIDxw4d4cfeBDh4dB4P%252F%252BZj%252FZU8sAPKb8sXHj5Uu7e2kJXeSjnTehWq3RPfo9%252Bi%252F%252Fc777yj3fwDdqnPr1eHUPgZgGYJGBUAyBLZWXnlpmHRmCciBGlnHHlKcBZYzBP3lXkYenHpFk68UoRTi6CghVzhJScyMxKPEfIPpJkaHRWhHMiCu%252F6cn2dsiTermZtnUNEbgkLFZ2JXc8yy1qjUoj%252FA5h%252Bl02maVPZITohyxEp3Occ%252FWoxyy%252Bv1JpxeXnInAJTFoqcolSaVNJiPP7JdOoCM6UZfZrVJq0ijUVkuagSkghw8sJ42oN5TdV2c8qsZdLAf0yxm3Vc7UIqwJckK4oDFwnntAUNewee8ZNluM8qjCdgj%252BrlF724bI0FETJ0lj2E492%252Fh7N0gV%252BAZXSMoOGIaTZtegV%252FbRjFfY037ChhwIUIXhC%252FGLXI1BQmEZQDcsZH9ZFYvrGPvoO4wWg50YnnZoyI6kKhrTR4hDeIdDnL4MFA%252FgaKepZE9MFY9PKAvqJQPFwrO0w6JdD6e888s3evnOr9FnwgjXwJoYe44IfONMkEPOddfGXruu1Y4v6umGR5DC0YoUAAikcBqSAohhur5J0a7nViLFyZJQLa2YInkbTWP61ql9RTmT7Cim7IKw2zC%252BStZSLTEOh1oNrYghhGycphrEE%252BSIy1PHtOB0LtHiR5ZKON1jEd4yw41W5rvVavvC2c40bXW9CeFCudUflDZwtYlJotxkviQ%252BoaCyV7zCYVjbUjvr1K4h08m2nW05f6yeFjMSQx%252B%252B5Hkq04cwyzlRg4xqh8UGpepcghH1CtXFkyUJB8MCMcVFAxrIka22Fg1nu1NXZLUbB7eDX094rVgsmdfj9mi22MrLmN72jdPYvhH3Qnq2b2w58FevsYTUvuwLj6wNz1hahv8l548wxlla%252FJ6UOycLFuxNtDtvQbpdK53xk%252FLVMqKMCw1zNJu8E%252Biyw%252FXDeboOW112uHY0T9dfu8v%252Bjo%252Frr3aLtZijtXextntdrLvK2ho5VRdvZBz9bUppqTb40t%252FXSm2rrtR6BTLtSUsrtRQR7Xulljch6lfqYhsoUypvU4RvF3JK0V%252FwiuqwYDDqT9zb0sBXaXk%252FpWGAq6TlQFnNZV%252Fg9anmgKqa0yw0LwbExA04VTXnCmrO6fmzf7vl%252FZr%252BA65AK2J4AjFA0%252FMgPGEhtcWPPLs%252BD6LdoEotwJrgJmayN8ZtbBwQ1DVuzVOLiuSJgeZOOMJuKRjLa%252F34FQK1vtQ7LXs6vW6FO3q5Fc64mjQGRANN2a04NM%252B7np7yVvj7mJ4ACAiefHrKW83vAwnX1UxRcsHvDgkxM%252F%252F0SMgbqsNZsvioaLJkeRNB4TU9peXUFiVo9%252BPuWoA1wc0Vh9ubNMNNEtQ3boO2Pyd6kUI0Gxt%252F%252BnhqUrwlrH1NngKUjTLPqbqBUaAcLZ6HCMa00Y9N%252FHNDcMIE3EIWNlSV8I0BGeL72ri1dku6eDaXu%252BcQWO7LlHlqipl57a3pcsS5HvEbBGlVck%252F%252FmYdkE6intV3hBxwtGNoxxPVJbTJJCMt9or%252BGV1lO3EBwFncWNMBZjuS%252BgvMaRjhZsoEnIYkwO0rHmMY%252BG0m%252FsKjV8PtE4jRXDCmGC6KO%252B5IqzCUaTvajC7RDXI4l1CP%252BZ4R%252FbpgGpj0LySI%252FPcmg6K34p51quN34KMI%252BbfoXRk%252FFGZyqbafBIx3%252FjF3G1KfLMU7xgBjgCSEMDRigR7p86RBgo3wKcJbf2Od5nkB1O1G38OakRre8PbwpUFQMFXRsXnJrtoPsHls6RKfRKTolN2Zc%252FgKxz6%252BHuEl2mKZjrWgqerRu000yINJU1JBd07TlONfRevOEXPRUuaiZRy4a4E0zMDzhPLzeuWi1y8UdpyxHnVNHMLhFLo4VuahbqFd0%252Bht%252FZifaAa0t3%252FR293875dV3%252F0OWffk%252F%253C%252Fdiagram%253E%253Cdiagram%2520name%253D%2522Copy%2520of%2520Page-1%2522%2520id%253D%252230QiSpRAW2cog0MsUaTt%2522%253ErZJPC8IgHIY%252FjcdgKouuZX9GNAiCOsu0TXD7DbO2%252BvS1pi3psEsgCI%252BPvvoioqxsN4bXRQpCakQi0SK6RIRgTKLX1JF7T2I860FulHDSAA7qIR10%252B%252FKrEvISiBZAW1WHMIOqkpkNGDcGmlA7gw5Ta57LH3DIuP6lJyVs0dNZHA08kSovfDKO3ErJvezApeACmi9EV4hMEaEtR3SBOhYOygyAHdW8XLZM6q583%252BsW5rDe7Y%252BAxS1tmEhZEk%252F6y6z%252FfOqnJSMr%252B4d0yl7WyOvfTvDv6OoJ%253C%252Fdiagram%253E%253C%252Fmxfile%253E&h=AT26-RU9JRjojyGW7MGgD3knzvCbkTbHEwj-lArn86NJMDMbcfEPUOqYS32haKUQP4ftkwzTUhjJgrTaffDsdwPUsqQfcrUu2KdzEyZdKbZNno8VvAMfy-vPfTGb0A-DxlITbw'">Draw.io</button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="assets/xml/xml.png" alt="Project 4" class="project-img" />
+          </div>
+          <h2 class="project-title">Project 4</h2>          
+        </div>        
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacts">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+
+      <div class="contact-wrapper">   
+        <!-- Email -->
+        <div class="contact-info-container">
+          <img src="assets/email/email.png" alt="Email" class="icon contact-icon" />
+        <p><a href="mailto:neilgieendab@gmail.com">neilgieendab@gmail.com</a></p>
+        </div>
+
+        <!-- Facebook -->
+        <div class="contact-info-container">
+         <img src="assets/facebook/facebook.png" alt="Facebook" class="icon contact-icon" />
+        <p><a href="https://www.facebook.com/share/1BNEHmPtZy" target="_blank" rel="noopener noreferrer">Baby Gieneil Endab</a></p>
+        </div>
+
+        <!-- Instagram -->
+        <div class="contact-info-container">
+         <img src="assets/instagram/instagram.png" alt="Instagram" class="icon contact-icon" />
+       <p><a href="https://www.instagram.com/babygieneil" target="_blank" rel="noopener noreferrer">@babygieneil</a></p>
+        </div>
+
+        <!-- Phone -->
+        <div class="contact-info-container">
+          <img src="assets/phone/phone.png" alt="Phone" class="icon contact-icon" />
+        <p><a href="tel:+639636507953">+63 963 650 7953</a></p>
+        </div>
+      </div>
+    </section>
+
+
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#awards">Awards</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>See you next time!.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
