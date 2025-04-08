@@ -63,6 +63,21 @@ a:hover {
   cursor: default;
 }
 
+/* HAMBURGER ICON */
+.hidden {
+    display: none;
+}
+
+.nav-links {
+    list-style: none;
+    /* Add other styles as needed */
+}
+
+#hamburger {
+    cursor: pointer;
+    /* Add styles for the hamburger icon */
+}
+
 /* HAMBURGER MENU */
 #hamburger-nav {
   display: none; /* Hidden by default, will show on mobile */
