@@ -526,6 +526,12 @@ section {
 #skills {
   position: relative;
   padding: 2rem 0;
+  text-align: center; /* Center section title and heading */
+}
+
+.skills-container {
+  display: flex;
+  justify-content: center; /* Center the ul horizontally */
 }
 
 .skills-container ul {
@@ -534,6 +540,8 @@ section {
   gap: 1.5rem;
   list-style-type: none;
   padding: 0;
+  max-width: 700px; /* Optional: Limit width to make it neater on large screens */
+  width: 100%;
 }
 
 .skills-container li {
@@ -560,9 +568,11 @@ section {
   line-height: 1.6;
 }
 
+/* Responsive for smaller screens */
 @media (max-width: 768px) {
   .skills-container ul {
     gap: 1rem;
+    padding: 0 1rem; /* Adds side padding for mobile view */
   }
 
   .skills-container li {
@@ -577,6 +587,7 @@ section {
     font-size: 0.9rem;
   }
 }
+
 
 /* PROJECTS SECTION */
 #projects {
