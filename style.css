@@ -692,42 +692,6 @@ section {
   width: 3rem;
 }
 
-/* FOOTER SECTION */
-footer {
-  height: 26vh;
-  margin: 0 1rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.nav-links-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.nav-links {
-  list-style: none;
-  display: flex;
-  gap: 2rem;
-  padding: 0;
-  margin: 1rem 0;
-  flex-wrap: wrap; /* Responsive wrap */
-}
-
-.nav-links a {
-  text-decoration: none;
-  color: #333;
-  font-weight: 500;
-  transition: color 0.3s ease;
-}
-
-.nav-links a:hover {
-  color: #007bff;
-}
-
 footer p {
   text-align: center;
   color: #555;
