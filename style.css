@@ -248,7 +248,7 @@ section {
 /* MEDIA QUERIES (RESPONSIVE DESIGN) */
 @media (max-width: 768px) {
   section {
-    margin: 0 2rem;
+    margin: 0 10rem;
     height: auto;
   }
 
