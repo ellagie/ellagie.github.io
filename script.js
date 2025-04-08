@@ -3,12 +3,8 @@ function toggleMenu() {
     // Select the elements for the menu and hamburger icon
     const menu = document.querySelector(".menu-links");
     const icon = document.querySelector(".hamburger-icon");
-  
+
     // Toggle the "open" class on the menu and icon to show/hide the menu
     menu.classList.toggle("open");
     icon.classList.toggle("open");
-  }
-  
-  // Event listener for clicking the hamburger icon
-  document.querySelector(".hamburger-icon").addEventListener("click", toggleMenu);
-  
+}
